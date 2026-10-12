@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\camera">
+      <UniqueIdentifier>{d6858be7-2a13-4078-ad3c-5a147abf9085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\camera">
+      <UniqueIdentifier>{afaabb05-db55-4241-81d6-81066e5750d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\scene">
+      <UniqueIdentifier>{c12f2a2d-2512-40e7-8395-3dce8e239e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\scene">
+      <UniqueIdentifier>{7b1beabf-61a6-488d-ade7-7b7b5b79b0ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\collision">
+      <UniqueIdentifier>{899c42b6-2442-4729-a5a2-4f7622bd1548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\collision">
+      <UniqueIdentifier>{42c4df72-476a-4479-a1bc-d6583df9a110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\state">
+      <UniqueIdentifier>{97c5f046-7e46-4ce1-9d0f-c8abe3146259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\state">
+      <UniqueIdentifier>{23184902-c15d-476d-b559-4313d27bb291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\resource">
+      <UniqueIdentifier>{dd3435c8-9404-4863-8063-9867a10ca866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\resource">
+      <UniqueIdentifier>{1c76110d-6827-41d2-a6a8-a3f80b4fd9d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\character">
+      <UniqueIdentifier>{eb93c7fe-4fb4-4dc7-a2e3-ed285c0c919c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\character">
+      <UniqueIdentifier>{9ba788fe-d9f6-4ade-8b94-94ed9386f48b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bullet_time">
+      <UniqueIdentifier>{111cef15-85f4-4559-bb08-f7cc7e03afe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\bullet_time">
+      <UniqueIdentifier>{e8d5f953-4e62-4c5c-89e1-cb9a7dfe7a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\props">
+      <UniqueIdentifier>{d2428732-5054-4a33-851e-4d889f502114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\props">
+      <UniqueIdentifier>{6b829d10-bc13-4df8-81c6-20e2bccc4a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\props\hornet">
+      <UniqueIdentifier>{d7a58afc-3257-4703-abd4-fe8b1e805730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\props\hornet">
+      <UniqueIdentifier>{f2883268-41e6-44ec-84fd-cd9ffdb653bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\character\enemy">
+      <UniqueIdentifier>{2de537c8-561c-4514-800c-fd59dc8b10c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\props\dragon">
+      <UniqueIdentifier>{3134e430-eac0-4d3f-b17c-bf5cdd9ed7ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\props\dragon">
+      <UniqueIdentifier>{6ca7e290-d1aa-4c0d-88f3-4577fa5444be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\character\enemy">
+      <UniqueIdentifier>{60bad6a9-c7aa-4fb1-b562-c3bbaf0d5ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\state\enemy">
+      <UniqueIdentifier>{65205a6e-e9f9-4187-86c6-892bbf156e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\state\enemy">
+      <UniqueIdentifier>{ba2274a3-9df1-461a-9ad8-022c344a3113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\scene\game_scene">
+      <UniqueIdentifier>{e59df399-5cce-43f2-b74e-5775d003c0e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\scene\game_scene">
+      <UniqueIdentifier>{5b833714-195d-4508-83c6-e3ab50b3b9e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\scene\menu_scene">
+      <UniqueIdentifier>{5a3c5af4-2b20-4fe8-862d-504eced50056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\scene\select_scene">
+      <UniqueIdentifier>{4e3ba555-80be-4bc9-a323-d135bcaadf0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\scene\menu_scene">
+      <UniqueIdentifier>{338d917a-6eb0-4926-ac0f-57138229914a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\scene\scelct_scene">
+      <UniqueIdentifier>{1fbb669c-acfb-4e94-86a4-32baa7b90ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\character\player">
+      <UniqueIdentifier>{3e557d2f-4886-4345-809c-e25ae7e27c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\character\player">
+      <UniqueIdentifier>{ac491a95-c8b9-4a47-89c9-bccdf47174af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\state\player">
+      <UniqueIdentifier>{7de25275-bd20-4a08-92c3-65ddfc5b0732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\state\player">
+      <UniqueIdentifier>{96eb585c-9a6e-4b81-a0f7-01c31b500a3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vector2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>头文件\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="camera_manager.h">
+      <Filter>头文件\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="atlas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_type.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_manager.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_layer.h">
+      <Filter>头文件\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_box.h">
+      <Filter>头文件\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_manager.h">
+      <Filter>头文件\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_manager.h">
+      <Filter>头文件\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="state_node.h">
+      <Filter>头文件\state</Filter>
+    </ClInclude>
+    <ClInclude Include="state_machine.h">
+      <Filter>头文件\state</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>头文件\character</Filter>
+    </ClInclude>
+    <ClInclude Include="character_manager.h">
+      <Filter>头文件\character</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet_time_manager.h">
+      <Filter>头文件\bullet_time</Filter>
+    </ClInclude>
+    <ClInclude Include="barb.h">
+      <Filter>头文件\props\hornet</Filter>
+    </ClInclude>
+    <ClInclude Include="sword.h">
+      <Filter>头文件\props\hornet</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_hornet.h">
+      <Filter>头文件\character\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_dragon.h">
+      <Filter>头文件\character\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="fire_up.h">
+      <Filter>头文件\props\dragon</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_hornet_state_nodes.h">
+      <Filter>头文件\state\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_dragon_state_nodes.h">
+      <Filter>头文件\state\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="game_scene_eight.h">
+      <Filter>头文件\scene\game_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="game_scene_six.h">
+      <Filter>头文件\scene\game_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_scene.h">
+      <Filter>头文件\scene\menu_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="select_scene.h">
+      <Filter>头文件\scene\select_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>头文件\character\player</Filter>
+    </ClInclude>
+    <ClInclude Include="fire_bullet.h">
+      <Filter>头文件\props\dragon</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="player_state_nodes.h">
+      <Filter>头文件\state\player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera_manager.cpp">
+      <Filter>源文件\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_manager.cpp">
+      <Filter>源文件\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="collision_box.cpp">
+      <Filter>源文件\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="collision_manager.cpp">
+      <Filter>源文件\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_manager.cpp">
+      <Filter>源文件\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="state_machine.cpp">
+      <Filter>源文件\state</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>源文件\character</Filter>
+    </ClCompile>
+    <ClCompile Include="character_manager.cpp">
+      <Filter>源文件\character</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet_time_manager.cpp">
+      <Filter>源文件\bullet_time</Filter>
+    </ClCompile>
+    <ClCompile Include="barb.cpp">
+      <Filter>源文件\props\hornet</Filter>
+    </ClCompile>
+    <ClCompile Include="sword.cpp">
+      <Filter>源文件\props\hornet</Filter>
+    </ClCompile>
+    <ClCompile Include="fire_up.cpp">
+      <Filter>源文件\props\dragon</Filter>
+    </ClCompile>
+    <ClCompile Include="enmy_hornet.cpp">
+      <Filter>源文件\character\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_dragon.cpp">
+      <Filter>源文件\character\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_hornet_state_nodes.cpp">
+      <Filter>源文件\state\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_dragon_state_nodes.cpp">
+      <Filter>源文件\state\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="game_scene_six.cpp">
+      <Filter>源文件\scene\game_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="game_scene_eight.cpp">
+      <Filter>源文件\scene\game_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_scene.cpp">
+      <Filter>源文件\scene\menu_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="sclect_scene.cpp">
+      <Filter>源文件\scene\scelct_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>源文件\character\player</Filter>
+    </ClCompile>
+    <ClCompile Include="fire_bullet.cpp">
+      <Filter>源文件\props\dragon</Filter>
+    </ClCompile>
+    <ClCompile Include="player_state_nodes.cpp">
+      <Filter>源文件\state\player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KatanaZERO.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\logo\KatanaZERO.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
